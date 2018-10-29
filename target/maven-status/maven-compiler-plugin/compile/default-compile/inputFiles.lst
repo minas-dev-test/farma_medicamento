@@ -1,7 +1,6 @@
 C:\Users\babiz\Documents\workspace-farmacia\medicamento-api\src\main\java\com\example\medicamento\api\exception\BusinessException.java
 C:\Users\babiz\Documents\workspace-farmacia\medicamento-api\src\main\java\com\example\medicamento\api\model\Status.java
 C:\Users\babiz\Documents\workspace-farmacia\medicamento-api\src\main\java\com\example\medicamento\api\resource\SolicitacaoResource.java
-C:\Users\babiz\Documents\workspace-farmacia\medicamento-api\src\main\java\com\example\medicamento\api\model\Medicamento_.java
 C:\Users\babiz\Documents\workspace-farmacia\medicamento-api\src\main\java\com\example\medicamento\api\cors\CorsFilter.java
 C:\Users\babiz\Documents\workspace-farmacia\medicamento-api\src\main\java\com\example\medicamento\api\event\listener\RecursoCriadoListener.java
 C:\Users\babiz\Documents\workspace-farmacia\medicamento-api\src\main\java\com\example\medicamento\api\repository\StatusRepository.java
@@ -10,8 +9,6 @@ C:\Users\babiz\Documents\workspace-farmacia\medicamento-api\src\main\java\com\ex
 C:\Users\babiz\Documents\workspace-farmacia\medicamento-api\src\main\java\com\example\medicamento\api\repository\filter\MedicamentoFilter.java
 C:\Users\babiz\Documents\workspace-farmacia\medicamento-api\src\main\java\com\example\medicamento\api\repository\solicitacao\SolicitacaoRepositoryQuery.java
 C:\Users\babiz\Documents\workspace-farmacia\medicamento-api\src\main\java\com\example\medicamento\api\model\TipoMedicamento.java
-C:\Users\babiz\Documents\workspace-farmacia\medicamento-api\src\main\java\com\example\medicamento\api\model\TipoMedicamento_.java
-C:\Users\babiz\Documents\workspace-farmacia\medicamento-api\src\main\java\com\example\medicamento\api\model\Estoque_.java
 C:\Users\babiz\Documents\workspace-farmacia\medicamento-api\src\main\java\com\example\medicamento\api\repository\TipoRepository.java
 C:\Users\babiz\Documents\workspace-farmacia\medicamento-api\src\main\java\com\example\medicamento\api\model\Estoque.java
 C:\Users\babiz\Documents\workspace-farmacia\medicamento-api\src\main\java\com\example\medicamento\api\builder\MultiBusinessExceptionBuilder.java
@@ -23,14 +20,12 @@ C:\Users\babiz\Documents\workspace-farmacia\medicamento-api\src\main\java\com\ex
 C:\Users\babiz\Documents\workspace-farmacia\medicamento-api\src\main\java\com\example\medicamento\api\resource\EstoqueResource.java
 C:\Users\babiz\Documents\workspace-farmacia\medicamento-api\src\main\java\com\example\medicamento\api\repository\solicitacao\SolicitacaoRepositoryImpl.java
 C:\Users\babiz\Documents\workspace-farmacia\medicamento-api\src\main\java\com\example\medicamento\api\MedicamentoApiApplication.java
-C:\Users\babiz\Documents\workspace-farmacia\medicamento-api\src\main\java\com\example\medicamento\api\model\Status_.java
 C:\Users\babiz\Documents\workspace-farmacia\medicamento-api\src\main\java\com\example\medicamento\api\repository\medicamento\MedicamentoRepositoryQuery.java
 C:\Users\babiz\Documents\workspace-farmacia\medicamento-api\src\main\java\com\example\medicamento\api\resource\TipoResource.java
 C:\Users\babiz\Documents\workspace-farmacia\medicamento-api\src\main\java\com\example\medicamento\api\repository\medicamento\MedicamentoRepositoryImpl.java
 C:\Users\babiz\Documents\workspace-farmacia\medicamento-api\src\main\java\com\example\medicamento\api\resource\StatusResource.java
 C:\Users\babiz\Documents\workspace-farmacia\medicamento-api\src\main\java\com\example\medicamento\api\service\EstoqueService.java
 C:\Users\babiz\Documents\workspace-farmacia\medicamento-api\src\main\java\com\example\medicamento\api\event\RecursoCriadoEvent.java
-C:\Users\babiz\Documents\workspace-farmacia\medicamento-api\src\main\java\com\example\medicamento\api\model\Solicitacao_.java
 C:\Users\babiz\Documents\workspace-farmacia\medicamento-api\src\main\java\com\example\medicamento\api\repository\MedicamentoRepository.java
 C:\Users\babiz\Documents\workspace-farmacia\medicamento-api\src\main\java\com\example\medicamento\api\resource\MedicamentoResource.java
 C:\Users\babiz\Documents\workspace-farmacia\medicamento-api\src\main\java\com\example\medicamento\api\model\Solicitacao.java
