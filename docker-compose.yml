@@ -1,14 +1,26 @@
 version: '3'
 services:
- docker-app:
-    image: app-medicamento
-    ports:
-      - "8080:8080"
-    depends_on:
-      - memories
- memories:
-    image: mysql:5.6
+  medicamento-db:
+    image: mysql:5.7
+    volumes:
+      - ./database:/var/lib/mysql
+    command: --log_error_verbosity=1
     environment:
-      - MYSQL_ROOT_PASSWORD=root
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: medicamentodb
+      MYSQL_USER: admin
+      MYSQL_PASSWORD: admin
+  
+  medicamento-api:
+    build: .
+    volumes:
+      - ~/.m2:/root/.m2
     ports:
-      - "3306:3306"
+      - "3000:8080"
+    depends_on:
+      - medicamento-db
+    command: wait-for-it medicamento-db:3306 --timeout=0 -- java -jar app.jar
+    environment: 
+      SPRING_DATASOURCE_URL: "jdbc:mysql://medicamento-db:3306/medicamentodb"
+      SPRING_DATASOURCE_USERNAME: admin
+      SPRING_DATASOURCE_PASSWORD: admin
