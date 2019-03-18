@@ -19,7 +19,8 @@ import org.springframework.stereotype.Component;
 @Order(Ordered.HIGHEST_PRECEDENCE)
 public class CorsFilter implements Filter {
 
-	private String originPermitida = "http://localhost:4200"; // TODO: Configurar para diferentes ambientes
+	// private String originPermitida = "http://localhost:4200"; // TODO: Configurar para diferentes ambientes
+	private String originPermitida = "*";
 	
 	@Override
 	public void doFilter(ServletRequest req, ServletResponse resp, FilterChain chain)
