@@ -64,3 +64,31 @@ As principais variáveis são:
 
     - "/tipos"
         - get: retorna uma lista com todos os TipoMedicamento; parâmetros: n/a
+
+### Exemplo
+
+```JSON
+{
+    "lote": "10002",
+    "principioAtivo": "Dipirona Sódica Monoidratada",
+    "dosagem": "500 mg/mL",
+    "dataVencimento": "2019-06-10",
+    "nomeComercial": "Novalgina",
+    "outrasEspecificacoes": null,
+    "tipo": {
+        "id": 1,
+        "descricao": "Gotas"
+    },
+    "laboratorio": "Sanofi",
+    "status": {
+        "id": 1,
+        "descricao": "Disponível"
+    },
+    "obsExclusao": null,
+    "usoVeterinario": "N",
+    "estoque": {
+        "quantidade": 1
+    },
+    "solicitacaoAtual": null
+}
+```
