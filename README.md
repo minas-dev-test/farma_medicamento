@@ -40,7 +40,7 @@ As principais variáveis são:
     
     ##obs: lote é o ID do Medicamento
     - "/medicamentos/{lote}"
-        - put: atualiza um Medicamento(exceto o 'lote'), retorna um ResponseEntity; parâmetros: String lote, Medicamento
+        - put: atualiza um Medicamento(exceto o 'lote'), retorna um ResponseEntity; parâmetros: String lote, Medicamento (NÃO PASSAR ESTOQUE)
     - "/medicamentos/atualizar-status/{lote}"
         - put: atualiza um Medicamento(exceto o 'lote', 'estoque', 'tipo'), retorna um ResponseEntity; parâmetros: String lote, Medicamento
     - "/medicamentos/acrescentar-ao-estoque/{lote}"
